@@ -3,7 +3,7 @@ A Ready-to-go starter pack to kickoff Jekyll projects with the basics and a few 
 
 ### Guiding Principles
 * Well Documented
-* Easy to Stand up 
+* Easy to Stand up
 * Easy to build upon
 * Modular Reusable Components with minimal styles
 * Capture common Jekyll logic
@@ -31,7 +31,7 @@ Create a new project from the Jekyll-Starter template using [cookiecutter](https
 
 ```
 brew install cookiecutter
-cookiecutter gh:istrategylabs/mo-static
+cookiecutter gh:DanRader/jekyll-starter
 ```
 
-Follow the prompts to configure your project with the available options. When finished, cd into your project, installed npm dependencies with npm i, and quickly get started by running npm run dev. 
+Follow the prompts to configure your project with the available options. When finished, cd into your project, installed npm dependencies with npm i, and quickly get started by running npm run dev.

@@ -1,4 +1,4 @@
-# {{ cookiecutter.name }}
+# {{ cookiecutter.project-name }}
 by: {{ cookiecutter.author }}
 
 {{ cookiecutter.description }}
