@@ -19,3 +19,4 @@ A Ready-to-go starter pack to kickoff every Jekyll projects with the basics and 
 * [Grunt + Jekyll](https://github.com/dannygarcia/grunt-jekyll)
 * [Sass Linting](https://github.com/sasstools/grunt-sass-lint)
 * [BrowserSync](https://browsersync.io/)
+* [purifyCSS](https://github.com/purifycss/purifycss)
