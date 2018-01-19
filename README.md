@@ -1,5 +1,5 @@
 # jekyll-starter
-A Ready-to-go starter pack to kickoff every Jekyll projects with the basics and a few helpful tools to help along the way.
+A Ready-to-go starter pack to kickoff Jekyll projects with the basics and a few helpful tools to help along the way.
 
 ## Guiding Principles
 * Well Documented
