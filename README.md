@@ -1,5 +1,5 @@
 # jekyll-starter
-an attempt to get a starter pack going with Jekyll + Siteleaf + Sass + BassCss + ready-to-go, modular components.
+A Ready-to-go starter pack to kickoff every Jekyll projects with the basics and a few helpful tools to help along the way.
 
 ## Guiding Principles
 * Well Documented
@@ -8,3 +8,9 @@ an attempt to get a starter pack going with Jekyll + Siteleaf + Sass + BassCss +
 * Modular Reusable Components with minimal styles
 * Capture common Jekyll logic
 
+## Tech & Tools
+* Jekyll
+* Siteleaf Ready
+* Sass
+* Bass CSS
+* Grunt
