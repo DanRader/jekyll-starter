@@ -1,4 +1,4 @@
-title: {{ cookiecutter.project-name }}
+title: {{ cookiecutter.project_name }}
 email: {{ cookiecutter.email }}
 description: {{ cookiecutter.description }}
 baseurl: "" # the subpath of your site, e.g. /blog
