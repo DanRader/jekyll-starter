@@ -1,0 +1,40 @@
+<!-- Contact Modal -->
+<div id="contact--modal" class="modal">
+  <div class="modal-content ">
+  <div class="color-bar"></div>
+  <span class="close hairline" data-modal="contact--modal"></span>
+  <div class="col-10 md-col-8 lg-col-6 center mx-auto content-wrap">
+      <div class="xs-hide">
+          {% include /svg/ATI_b.svg %}
+      </div>
+      <h1>Contact the Chief</h1>
+      <p class="xs-hide">Questions? We might have answers. Fill in yours here.</p>
+
+        <form id="myForm">
+            <input id="form-name" type="text" name="Name" placeholder="Name" required>
+            <input id="form-email" type="email" name="Email" placeholder="Email" required>
+            <textarea id="form-message" name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
+            <!-- CONFIG -->
+            <input class="hidden" type="text" name="_gotcha">
+            <input type="hidden" name="_subject" value="Subject">
+            <input type="hidden" name="_cc" value="email@cc.com">
+            <!-- /CONFIG -->
+            <input type="submit" value="Submit" id="Form-submit" class="btn-prime"/>
+        </form>
+  </div>
+  </div>
+</div>
+
+<!-- Return Modal -->
+<div id="return--modal" class="modal">
+    <span class="close hairline" data-modal="return--modal"></span>
+    <div class="modal-content">
+        <div class="max-width-3 mx-auto relative">
+            {% for page in site.pages %}
+                {% if page.title == "return-policy" %}
+                    {{ page.content }}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

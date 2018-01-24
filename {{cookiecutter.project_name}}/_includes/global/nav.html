@@ -1,0 +1,31 @@
+<nav class="relative {% if page.layout == "artifact" %}artifact--nav{% endif %}">
+<input type="checkbox" id="nav" class="hidden"/>
+<label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+  <div class="nav-wrapper nav-container fixed top-0 left-0 right-0 p1 z2 clearfix">
+    <a href="{{ site.baseurl }}/" class="brand-logo">{% include svg/ATI_b.svg %}</a>
+    <ul class="block list-reset temp-nav-spacing clearfix">
+
+       {% assign current = page.url | downcase | split: '/' %}
+
+            <a href='/artifacts'><li class="nav--links baffle-hover block left {% if current contains 'artifacts' %}nav--links_active {% endif %}">Archive</li></a>
+
+            <a href='/sightings'><li class="nav--links baffle-hover block left {% if current contains 'sightings' %}nav--links_active {% endif %}">Sightings</li></a>
+
+            <a href='/log-book'><li class="nav--links baffle-hover block left {% if current contains 'log-book' %}nav--links_active {% endif %}">Log Book</li></a>
+
+            <a href='/team'><li class="nav--links baffle-hover block left {% if current contains 'team' %}nav--links_active {% endif %}">The Team</li></a>
+
+            <a href='/shop'><li class="nav--links baffle-hover block left {% if current contains 'shop' %}nav--links_active {% endif %}nav--last">Shop</li></a>
+
+
+            <button class="baffle-hover block right btn-nav modal__trigger" data-modal="contact--modal">Contact</button>
+            {% if current contains 'shop' %}
+                <a href="#"><li class="cart-icon block right snipcart-checkout"> <i class="fa fa-shopping-cart" aria-hidden="true"></i></li></a>
+            {% endif %}
+    </ul>
+  </div>
+  <a href="{{ site.baseurl }}/" class="mobile-logo">{% include svg/ATI_b.svg %}</a>
+</nav>
+
+
+{% include components/popup-contact.html %}
