@@ -20,7 +20,8 @@ An opinionated, ready-to-go starter pack to kickoff Jekyll projects with the bas
 * [Sass Linting](https://github.com/sasstools/grunt-sass-lint)
 * [BrowserSync](https://browsersync.io/)
 * [purifyCSS](https://github.com/purifycss/purifycss)
-* [cookiecutter](https://github.com/audreyr/cookiecutter)
+* ~~[cookiecutter](https://github.com/audreyr/cookiecutter)~~
+* [modern-normalize](https://github.com/sindresorhus/modern-normalize)
 
 ## Get Started
 If you don't have [HomeBrew](https://brew.sh/) Get it by pasting this in your console...
