@@ -22,6 +22,7 @@ An opinionated, ready-to-go starter pack to kickoff Jekyll projects with the bas
 * [purifyCSS](https://github.com/purifycss/purifycss)
 * ~~[cookiecutter](https://github.com/audreyr/cookiecutter)~~
 * [modern-normalize](https://github.com/sindresorhus/modern-normalize)
+* [purgecss](https://www.purgecss.com/)
 
 ## Get Started
 If you don't have [HomeBrew](https://brew.sh/) Get it by pasting this in your console...
