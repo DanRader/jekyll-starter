@@ -8,9 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-logo:
 email: {{cookiecutter.email}}
 description: {{cookiecutter.description}}
-url:
+url: "https://capitolciderhouse.com"
 permalink: pretty
-social-media-image:
+social-media-image: ""
+exclude:
+- node_modules
+- gulpfile.js
+logo: ""

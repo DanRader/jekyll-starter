@@ -1,5 +1,5 @@
-$ati-green: #BCD422;
-$paper-tan: #FFFBF2;
+$cch-blue: #2733FF;
+$cch-red: #FF2600;
 $darkest-grey: #4A4A4A;
 $grey: #575757;
 $mid-grey: #8f8f8f;
@@ -9,9 +9,23 @@ $light-grey: #cacaca;
 .bg-white  { background-color: $white }
 .bg-black  { background-color: black }
 
-////
-$maggie-green: #00BDB2;
-$maggie-green-light: #12dcd0;
-$maggie-gold: #B59661;
-$maggie-green-dark: #09736a;
-$blue-grey: #f6f9fc;
+.blue-text {
+    color: $cch-blue;
+}
+
+.blue-bg {
+    background-color: $cch-blue;
+}
+.blue-fill {
+    fill: $cch-blue;
+}
+
+.red-text {
+    color: $cch-red;
+}
+.red-bg {
+    background-color: $cch-red;
+}
+.red-fill {
+    fill: $cch-red;
+}

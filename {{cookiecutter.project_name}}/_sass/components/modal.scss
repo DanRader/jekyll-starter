@@ -48,7 +48,7 @@
     width: 100vw;
     display: flex;
     align-items: center;
-    background-color: $paper-tan;
+    background-color: $cch-blue;
 
     @media #{$media-max-tablet}{
         height: 70vh;
@@ -69,7 +69,7 @@
     }
 
     & .color-bar {
-        background-color: $ati-green;
+        background-color: $cch-blue;
         height: 8px;
         width: 100%;
         position: absolute;
@@ -105,7 +105,7 @@
         height: 44px;
         margin-bottom: 16px;
         border: 1px solid #949494;
-        font-family: 'Cutive Mono', monospace;
+        font-family: 'Work Sans', sans-serif;
         font-size: 15px;
         padding-left: 16px;
         box-sizing: border-box;

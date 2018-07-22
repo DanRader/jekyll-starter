@@ -3,15 +3,14 @@
 
   {% include global/head.html %}
 
-  <body>
+  <body class="home">
 
     {% include global/nav.html %}
 
-    {{ content }}
-
-    {% include global/footer.html %}
-    {% include scripts.html %}
-    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+    <div class="body-wrap">
+            {{ content }}
+    </div>
+    <!-- <script src="/assets/js/basicScroll.min.js"></script> -->
+    <script src="/assets/js/app.js"></script>
   </body>
-
 </html>
